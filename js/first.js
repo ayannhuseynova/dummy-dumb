@@ -1,5 +1,3 @@
-// 1)Write a JavaScript program to check two numbers and return true if one of the number is 100 or if the sum of the two numbers is 100
-
 alert(
   "first task: Write a JavaScript program to check two numbers and return true if one of the number is 100 or if the sum of the two numbers is 100"
 );
@@ -15,3 +13,5 @@ function Sum(num1, num2) {
     alert("wrong! refresh the page to try again");
   }
 }
+
+alert("salam");

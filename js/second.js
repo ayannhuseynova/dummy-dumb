@@ -5,7 +5,7 @@ let typeIn = prompt("type in ur word in here");
 checkNew(typeIn);
 
 function checkNew(word) {
-  if (word.substring(0, 4) === "New!" || word == null) {
+  if (word.substring(0, 4) === "New!" || word == null || word == undefined) {
     alert(word);
   } else {
     alert(`New! ${word}`);
