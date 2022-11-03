@@ -15,7 +15,9 @@ alert(
 
 function ConvertingToEven(array1, array2, count) {
   for (let index = 0; index < count; index++) {
-    let newElement = Number(prompt("enter the number"));
+    let newElement = Number(
+      prompt(`${index + 1} out of ${count}. enter the number`)
+    );
     array1.push(newElement);
   }
   array1.forEach((element) => {
